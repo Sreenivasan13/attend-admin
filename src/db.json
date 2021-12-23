@@ -1,0 +1,29 @@
+{
+  "students": [],
+  "attendance": [
+    {
+      "id": 1,
+      "attendance": "present",
+      "date": "21-12-2021",
+      "studentId": 13
+    },
+    {
+      "id": 2,
+      "attendance": "absent",
+      "date": "21-12-2021",
+      "studentId": 3
+    },
+    {
+      "attendance": "present",
+      "date": "2021-12-23",
+      "studentId": 1,
+      "id": 3
+    },
+    {
+      "attendance": "absent",
+      "date": "2021-12-22",
+      "studentId": 4,
+      "id": 4
+    }
+  ]
+}
