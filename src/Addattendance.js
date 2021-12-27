@@ -1,6 +1,9 @@
 import React from 'react'
 import { useFormik } from 'formik'
 import { Link,useParams, useNavigate } from 'react-router-dom'
+// npm i axios
+// import Axios from 'axios'
+
 
 const Addattendance = () => {
     let params = useParams();
@@ -13,6 +16,7 @@ const Addattendance = () => {
         },
         onSubmit: async values => {
             try {
+//                    axios.post("http://localhost:3000/attendance", values)
                 await fetch("http://localhost:3000/attendance", {
                        method: "POST",
                        body: JSON.stringify(values),
